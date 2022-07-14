@@ -1,7 +1,9 @@
-apply plugin: 'com.android.library'
-apply plugin: 'kotlin-android'
-apply plugin: 'maven-publish'
-apply plugin: "org.sonarqube"
+plugins {
+    id 'com.android.library'
+    id 'kotlin-android'
+    id 'maven-publish'
+    id 'org.sonarqube'
+}
 
 android {
     compileSdk rootProject.ext.compileSdkVersion
