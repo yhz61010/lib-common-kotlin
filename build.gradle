@@ -53,8 +53,5 @@ afterEvaluate {
                 version = "$rootProject.ext.libCommonKotlinVersion"
             }
         }
-        repositories {
-            mavenLocal()
-        }
     }
 }
